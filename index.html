@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DataCorp - Modern Business Website</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader"></div>
+
+<!-- Navbar -->
+<nav class="navbar glass">
+  <div class="logo">DataCorp</div>
+  <button class="hamburger" id="hamburger">&#9776;</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="themeToggle" class="theme-toggle-btn">🌙</button>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero" style="background: url('./images/hero.avif') center center/cover no-repeat;">
+  <div class="hero-content" data-aos="fade-up">
+    <h1>Empowering Businesses with AI & Data</h1>
+    <p>Smart dashboards, automation, and insights for growth</p>
+    <a href="#contact" class="cta-btn">Get Started</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about section">
+  <h2 data-aos="fade-up">About DataCorp</h2>
+  <p data-aos="fade-up">We are an award-winning team of AI engineers and data analysts providing next-gen digital solutions to global brands.</p>
+</section>
+
+<!-- Services -->
+<section id="services" class="services section">
+  <h2 data-aos="fade-up">Our Services</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card">
+        <img src="./images/AdobeStock_87909563.jpg" alt="">
+        <h3>AI Automation</h3>
+      </div>
+      <div class="swiper-slide card">
+        <img src="./images/data-analytics-automated-ai-technology-600nw-2496901385.webp" alt="">
+        <h3>Smart Dashboards</h3>
+      </div>
+      <div class="swiper-slide card">
+        <img src="./images/types-of-charts-and-graphs.jpg" alt="">
+        <h3>Advanced Analytics</h3>
+      </div>
+      <div class="swiper-slide card">
+        <img src="./images/cloud-services-isometric-composition-with-big-cloud-computing-infrastructure-elements-connected-with-dashed-lines-vector-illustration_1284-30495.avif" alt="">
+        <h3>Cloud Solutions</h3>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+<!-- Brands -->
+<section id="brands" class="brands section">
+  <h2 data-aos="fade-up">Our Partners</h2>
+  <div class="brand-cards" data-aos="fade-up">
+    <div class="brand-card glass">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" />
+    </div>
+    <div class="brand-card glass">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" alt="Slack" />
+    </div>
+    <div class="brand-card glass">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" alt="Slack" />
+    </div>
+    <div class="brand-card glass">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" />
+    </div>
+  </div>
+</section>
+
+<!-- Clients -->
+<section id="clients" class="clients section">
+  <h2 data-aos="fade-up">Trusted By</h2>
+  <div class="counter" data-target="500">0</div>
+  <p>Clients worldwide</p>
+  <div class="logos" data-aos="zoom-in">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="Airbnb">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify">
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="testimonials section">
+  <h2 data-aos="fade-up">What Our Clients Say</h2>
+  <div class="testimonial glass" data-aos="fade-right">
+    <p>"DataCorp's AI tools reduced our costs by 30% in just 3 months!"</p>
+    <strong>- CTO, FinTech Co</strong>
+  </div>
+  <div class="testimonial glass" data-aos="fade-left">
+    <p>"Their dashboards give us real-time insights — highly recommended!"</p>
+    <strong>- CEO, Retail Chain</strong>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact section">
+  <h2 data-aos="fade-up">Get In Touch</h2>
+  <form action="#" method="POST" data-aos="fade-up" class="contact-form glass">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="cta-btn">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 DataCorp. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/facebook-new.png" alt="Facebook"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/instagram-new.png" alt="Instagram"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/twitter.png" alt="Twitter"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png" alt="LinkedIn"></a>
+  </div>
+</footer>
+
+<!-- Scroll to Top -->
+<button id="scrollTopBtn" title="Go to top">↑</button>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+<script>
+  AOS.init();
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: { delay: 2500, disableOnInteraction: false },
+    pagination: { el: ".swiper-pagination", clickable: true },
+    navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
+  });
+</script>
+
+</body>
+</html>
